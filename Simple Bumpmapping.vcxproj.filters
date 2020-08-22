@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{54f01a98-cf63-4d82-9c4b-34109b0432b1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f501d697-34eb-44a2-8a26-377465acd6d8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{35fd1743-291c-465f-8995-ce7d70b93edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{93f22b48-28c7-4251-ad14-228e7ead4869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\BMP Image">
+      <UniqueIdentifier>{b60eaaf5-fc8a-429a-ad1e-4fec7cc6e449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\TGA Image">
+      <UniqueIdentifier>{2b97800e-6503-4225-981f-7d27fcf24bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{32e0e41d-46c3-4357-904f-9605a8659c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Source">
+      <UniqueIdentifier>{08016b63-b583-4d42-b831-ff4295d72348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Headers">
+      <UniqueIdentifier>{3d4a4b33-becc-451e-b6c2-45d47c0518dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Normalisation Cube Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_multitexture_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_texture_cube_map_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_texture_env_combine_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\ARB_texture_env_dot3_extension.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_CalculateStride.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_ExpandPalette.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_Load.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadAlpha.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_Load24BitBMP.cpp">
+      <Filter>Image\BMP Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_Load8BitBMP.cpp">
+      <Filter>Image\BMP Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadBMP.cpp">
+      <Filter>Image\BMP Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadCompressedTrueColorTGA.cpp">
+      <Filter>Image\TGA Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadTGA.cpp">
+      <Filter>Image\TGA Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadUncompressed8BitTGA.cpp">
+      <Filter>Image\TGA Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_LoadUncompressedTrueColorTGA.cpp">
+      <Filter>Image\TGA Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\COLOR.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\MATRIX4X4.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\PLANE.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR2D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR3D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR4D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Normalisation Cube Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_multitexture_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_texture_cube_map_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_texture_env_combine_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\ARB_texture_env_dot3_extension.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\IMAGE.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\Maths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\COLOR.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\MATRIX4X4.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\PLANE.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR2D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR3D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR4D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objectselection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainpage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJECT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bmp2.bmp" />
+    <Image Include="bmp3.bmp" />
+    <Image Include="back3.bmp" />
+    <Image Include="1.bmp" />
+    <Image Include="3.bmp" />
+    <Image Include="4.bmp" />
+    <Image Include="5.bmp" />
+    <Image Include="6.bmp" />
+    <Image Include="6bmp.bmp" />
+    <Image Include="7.bmp" />
+    <Image Include="Decal.bmp" />
+    <Image Include="Normal Map.bmp" />
+    <Image Include="back1.bmp" />
+    <Image Include="back2.bmp" />
+    <Image Include="23.bmp" />
+    <Image Include="24.bmp" />
+    <Image Include="78.bmp" />
+    <Image Include="pic3.bmp" />
+    <Image Include="tex1.bmp" />
+    <Image Include="tex2.bmp" />
+    <Image Include="1d.bmp" />
+    <Image Include="19.bmp" />
+    <Image Include="20.bmp" />
+    <Image Include="21.bmp" />
+    <Image Include="7w.bmp" />
+    <Image Include="8w.bmp" />
+    <Image Include="10w.bmp" />
+    <Image Include="11w.bmp" />
+    <Image Include="3w.bmp" />
+    <Image Include="4w.bmp" />
+    <Image Include="13.bmp" />
+    <Image Include="v.bmp" />
+    <Image Include="12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="force.wav" />
+  </ItemGroup>
+</Project>
